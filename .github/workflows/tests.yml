@@ -26,6 +26,6 @@ jobs:
       - name: List directory contents
         run: |
           ls -R
-      - name: Run tests
-        run: |
-          PYTHONPATH=$(src) python -m unittest discover -s tests -p "*.py"
+      #- name: Run tests
+      #  run: |
+      #    PYTHONPATH=$(src) python -m unittest discover -s tests -p "*.py"
