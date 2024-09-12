@@ -26,4 +26,4 @@ jobs:
 
       - name: Run tests
         run: |
-          python -m unitest discover # Run unitests from the default test directory
+          python -m unittest discover # Run unitests from the default test directory
