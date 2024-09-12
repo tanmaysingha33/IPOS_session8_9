@@ -12,9 +12,9 @@ class Stack:
     def pop(self):
         if not self.is_empty():
             top_item = self.items[self.top]
-            print(self.top)
+            #print(self.top)
             self.top -= 1
-            print(self.top)
+            #print(self.top)
             return top_item
             #self.top -= 1
             #print(self.top)
