@@ -8,10 +8,9 @@ on:
     branches:
       - 'main'
 
-  jobs:
-    hallo:
-      runs-on: ubuntu-latest
-
-      steps:
-        - name: Hello Step
-        - run: echo "Hello World"
+jobs:
+  hallo:
+  runs-on: ubuntu-latest
+  steps:
+    - name: Hello Step
+    - run: echo "Hello World"
