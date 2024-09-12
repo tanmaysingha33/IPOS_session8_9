@@ -23,8 +23,9 @@ jobs:
           python -m pip install --upgrade pip
           #pip install -r requirements.txt
           pip install flake8
-
+      - name: List directory contents
+        run: |
+          ls -R
       - name: Run tests
         run: |
-          cd ./src  # Change to src/ directory if your code is inside src/
-          coverage run -m unittest discover ../tests  # Update path to tests/ if different
+          PYTHONPATH=$(src) python -m unittest discover -s tests -p "*.py"
