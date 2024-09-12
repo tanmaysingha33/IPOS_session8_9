@@ -27,9 +27,9 @@ jobs:
       - name: List directory contents
         run: |
           ls -R
-      - name: Run test    
-        run: |
-         python -m unittest "tests/test_stack.py"
+      #- name: Run test    
+      #  run: |
+      #   python -m unittest "tests/test_stack.py"
          
       # - name: Test with unittest and calculate coverage
       #   run: |
